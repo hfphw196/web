@@ -63,4 +63,4 @@ jobs:
           app-name: 'Footballkit'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B81EC0C69D6E4CCDBA2B00A57819FFD8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FD78E0C11D064BB9B703D10415D74B84 }}
