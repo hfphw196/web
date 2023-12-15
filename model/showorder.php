@@ -1,10 +1,10 @@
 <?php
 session_start();
 ob_start();
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "website_footballkit";
+$servername = "footballkit-server.mysql.database.azure.com";
+$username = "rjrlcznktk";
+$password = "K4TB5OZ7SC6B4PF0$";
+$dbname = "footballkit-database";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
